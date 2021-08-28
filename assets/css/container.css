@@ -1,3 +1,8 @@
+body{
+  background-position: center;
+  background-size: cover;
+}
+
 .container{
   display: flex;
   justify-content: center;
