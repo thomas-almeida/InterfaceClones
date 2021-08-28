@@ -9,6 +9,7 @@ p {
     text-align: justify;
     width: 400px;
     font-size: 14pt;
+    font-family: monospace;
 }
 
 #preco-antigo{
