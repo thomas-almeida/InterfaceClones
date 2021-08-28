@@ -1,1 +1,24 @@
 /* Gordo */
+#btncupom{
+    border: none;
+    background-color: mediumpurple;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+}
+
+#btncupom:hover{
+    background-color: transparent;
+    border: 1px solid mediumpurple;
+    color: mediumpurple;
+}
+
+#txt {
+    margin: 5px;
+    width: 188px;
+    border-radius:5px ;
+    padding: 5px;
+}
