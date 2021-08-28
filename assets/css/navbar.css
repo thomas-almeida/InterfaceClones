@@ -6,6 +6,9 @@ nav{
 
 nav ul{
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav li{
@@ -15,7 +18,15 @@ nav li{
   color: black;
 }
 
+nav li:hover{
+  text-decoration: underline;
+}
+
 nav a{
   text-decoration: none;
   color: mediumpurple;
+}
+
+#logo-name{
+  color: white;
 }

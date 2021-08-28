@@ -9,7 +9,7 @@
 }
 
 .btncupom{
-    border: none;
+    border: 1px solid mediumpurple;
     background-color: mediumpurple;
     cursor: pointer;
     margin: 5px;
@@ -31,9 +31,15 @@
     border-radius:5px ;
     padding: 5px;
     font-size: 14pt;
+    border: 1px solid mediumpurple;
     background-color: transparent;
+    color: mediumpurple;
+    font-weight: bold;
 }
 
+#txt::placeholder {
+    color: mediumpurple;
+  }
 
 #cupom-area button{
     font-size: 14pt;
