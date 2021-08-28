@@ -45,3 +45,25 @@
 #cupom-area button{
     font-size: 14pt;
 }
+
+
+#arrow-left {
+    border-right:10px solid mediumpurple;
+    border-bottom:10px solid mediumpurple;
+    width:20px;
+    height:20px;
+    transform: rotate(130deg);
+    margin-top:40px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+#arrow-right {
+    border-right:10px solid mediumpurple;
+    border-bottom:10px solid mediumpurple;
+    width:20px;
+    height:20px;
+    transform: rotate(-45deg);
+    margin-top:40px;
+    cursor: pointer;
+}

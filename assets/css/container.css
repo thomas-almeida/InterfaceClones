@@ -23,8 +23,20 @@ body{
 
 
 .preco-do-boi{
-
+position: relative;
+top: -10%;
   width: 400px;
   padding: 20px;
   margin: 20px;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+#dica{
+  margin-left: 70px;
 }

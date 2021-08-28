@@ -4,5 +4,7 @@ img{
 
 #icone-boi{
     width: 200px;
+    margin: 10px;
     transform: scaleX(-1);
+    padding: 8px;
 }
