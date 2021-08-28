@@ -12,7 +12,7 @@ var notify = document.getElementById('notify')
 var notifyTxt = document.getElementById('notify-txt')
 var notifyClose = document.getElementById('notify-close')
 
-var desconto = 303 * 0.15
+var desconto = 303 * 0.10
 desconto = 303 - desconto
 console.log(desconto)
 
