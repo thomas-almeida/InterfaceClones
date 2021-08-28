@@ -6,4 +6,20 @@
 .container-content{
   padding: 30px;
   width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.info{
+  width: 500px;
+}
+
+
+.preco-do-boi{
+
+  width: 400px;
+  padding: 20px;
+  margin: 20px;
 }

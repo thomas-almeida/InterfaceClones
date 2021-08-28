@@ -1,6 +1,6 @@
 h1 {
-    font-size: 60pt;
-    width: 600px;
+    font-size: 3.9rem;
+    width: 500px;
     color: mediumpurple;
 }
 
@@ -9,4 +9,20 @@ p {
     text-align: justify;
     width: 400px;
     font-size: 14pt;
+}
+
+#preco-antigo{
+    text-decoration:line-through;
+    color: gray;
+}
+
+#cupom-area{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.preco-do-boi{
+    position: relative;
+    top: 20%;
+    height: 300px;
 }

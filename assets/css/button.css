@@ -1,4 +1,12 @@
 /* Gordo */
+
+#cupom-area{
+    display: flex;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
 #btncupom{
     border: none;
     background-color: mediumpurple;
@@ -21,4 +29,10 @@
     width: 188px;
     border-radius:5px ;
     padding: 5px;
+    font-size: 14pt;
+}
+
+
+#cupom-area button{
+    font-size: 14pt;
 }
