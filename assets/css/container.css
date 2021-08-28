@@ -1,1 +1,9 @@
-/* Guinsk */
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.container-content{
+  padding: 30px;
+  width: 80%;
+}

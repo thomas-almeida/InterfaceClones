@@ -1,1 +1,11 @@
-/* Murillho programadero */
+h1 {
+    font-size: 60pt;
+    width: 600px;
+}
+
+p {
+    margin-top: 15px;
+    text-align: justify;
+    width: 400px;
+    font-size: 14pt;
+}
