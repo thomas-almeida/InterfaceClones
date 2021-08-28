@@ -1,12 +1,11 @@
-h1{
-    color:cyan;
-    font-size:60pt;
-    width: 500px;
-   
-    
+h1 {
+    font-size: 60pt;
+    width: 600px;
 }
-p{
-    color:cyan;
+
+p {
+    margin-top: 15px;
     text-align: justify;
     width: 400px;
-} 
+    font-size: 14pt;
+}

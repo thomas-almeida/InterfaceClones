@@ -1,31 +1,9 @@
-.container-content {
-    margin: 30px;
-    background-color:#548C7C ;
-    width: 700px;
-    height: 300px;
-    border-radius: 10px;
+.container{
+  display: flex;
+  justify-content: center;
 }
 
-h1 {
-    margin: 30px;
-    font-size: 30px;
-    width: 400px;
-}
-
-p {
-  margin: 30px; 
-  font-size: 20px; 
-  width: 100%; 
-}
-
-button {
-  margin-left: 20px;
-  height: 20px;
-  border-radius: 5px;
-}
-
-button:hover {
-  color: aliceblue;
-  background-color: #04BFBF;
-  height: 30px;
+.container-content{
+  padding: 30px;
+  width: 80%;
 }
