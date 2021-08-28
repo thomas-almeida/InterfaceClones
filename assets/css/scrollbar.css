@@ -1,0 +1,16 @@
+
+/* Geral */
+body::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Cor de fundo do percurso */
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Cor da barra de scroll */
+body::-webkit-scrollbar-thumb {
+    background-color: mediumpurple;
+    border-radius: 10px;
+}

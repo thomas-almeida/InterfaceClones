@@ -9,10 +9,10 @@ var paragrafoDois = document.getElementById('paragrafo-2')
 var logo = document.getElementById('logo-name')
 var pointer = 0
 
-colorMode.addEventListener('click', function(){
+colorMode.addEventListener('click', function () {
 
     //Mudar modo de cor
-    if(pointer == 0){
+    if (pointer == 0) {
         // trocar para modo claro 
         body.style.backgroundColor = '#fff'
         paragrafo.style.color = '#000'
@@ -24,7 +24,14 @@ colorMode.addEventListener('click', function(){
 
         pointer = 1
 
-    }else{
+        //notificando
+        notify.style.display = 'block'
+        notify.style.backgroundColor = 'dodgerblue'
+        notify.style.color = '#fff'
+        notifyTxt.innerText = ' ☀️ Modo Claro Ativado'
+
+    } else {
+
         //Trocar para modo escuro
         body.style.backgroundColor = '#333'
         paragrafo.style.color = '#fff'
@@ -34,6 +41,12 @@ colorMode.addEventListener('click', function(){
         colorMode.innerText = "Modo Claro"
 
         pointer = 0
+
+        //notificando
+        notify.style.display = 'block'
+        notify.style.backgroundColor = 'dodgerblue'
+        notify.style.color = '#fff'
+        notifyTxt.innerText = ' 🌚 Modo Escuro Ativado'
 
     }
 

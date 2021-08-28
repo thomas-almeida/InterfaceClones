@@ -1,0 +1,14 @@
+#notify {
+    display: none;
+    padding: 15px;
+    text-align: center;
+}
+
+#notify-txt{
+    margin-right: 10px;
+}
+
+#notify-close{
+    text-decoration: none;
+    cursor: pointer;
+}

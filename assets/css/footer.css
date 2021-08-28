@@ -1,20 +1,26 @@
 /* Gordo */
+
 li {
     display: inline-block;
     margin: 15px;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    position: relative;
+    margin-top: 8%;
 }
+
 footer a {
     text-decoration: none;
     color: mediumpurple;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
-#color-mode{
+
+#color-mode {
     cursor: pointer;
 }
