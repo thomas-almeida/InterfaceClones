@@ -42,6 +42,8 @@ btnCupom.addEventListener('click', function () {
         notify.style.backgroundColor = 'crimson'
         notify.style.color = '#fff'
         notifyTxt.innerText = ' ⚠️ Cupom Inválido !'
+        precoNovo.innerText = 'R$ 300,00'
+        precoAntigo.innerText = 'Sem desconto aplicado'
     }
 
 })
