@@ -14,7 +14,7 @@ var notifyClose = document.getElementById('notify-close')
 
 var desconto = 303 * 0.10
 desconto = 303 - desconto
-console.log(desconto)
+console.log(desconto.toFixed(2))
 
 //botão de validar cupom
 btnCupom.addEventListener('click', function () {
@@ -23,8 +23,11 @@ btnCupom.addEventListener('click', function () {
         
         //Validar cupom
         precoAntigo.innerText = 'de R$ 300,00, por'
-        precoNovo.innerText = 'R$ ' + desconto
+        //Formatando String de Número
+        var removePonto = desconto.toFixed(2).toString().replace(".", ",")
+        precoNovo.innerText = 'R$ ' + removePonto
         inputCupom.value = ""
+
 
         //notificando
         notify.style.display = 'block'
