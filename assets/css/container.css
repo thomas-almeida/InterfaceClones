@@ -1,14 +1,14 @@
-body{
+body {
   background-position: center;
   background-size: cover;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
 }
 
-.container-content{
+.container-content {
   margin-top: 3%;
   padding: 30px;
   width: 80%;
@@ -17,26 +17,67 @@ body{
   flex-wrap: wrap;
 }
 
-.info{
+.info {
   width: 500px;
 }
 
-
-.preco-do-boi{
-position: relative;
-top: -10%;
+.preco-do-boi {
+  position: relative;
+  top: -10%;
   width: 400px;
   padding: 20px;
   margin: 20px;
 }
 
-section{
+section {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 300px;
 }
 
-#dica{
+#dica {
   margin-left: 70px;
+}
+
+.news-list {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news {
+  border: 1px solid rgba(245, 245, 245, 0.267);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  margin-bottom: 20px;
+  width: 400px;
+  transition: transform .2s;
+}
+
+.news:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 3px 3px mediumpurple;
+  cursor: pointer;
+}
+
+.news h2 {
+  font-size: 30pt;
+  color: rgb(143, 95, 238);
+}
+
+.news p {
+  width: 100%;
+  line-height: 28px;
+}
+
+.title-content {
+  display: flex;
+  justify-content: center;
+}
+
+.title-content>div {
+  width: 80%;
 }

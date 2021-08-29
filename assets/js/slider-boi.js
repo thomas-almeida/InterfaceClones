@@ -1,5 +1,3 @@
-
-
 var imagemBoi = document.getElementById('icone-boi')
 var bntLeft = document.getElementById('arrow-left')
 var bntRight = document.getElementById('arrow-right')
