@@ -1,13 +1,27 @@
-# InterfaceClones
+# AUTOBOIS \\ 
 
 
-<h1>Montando e Aprimorando site com base em dribble</h1>
+<h1>Montando e Aprimorando site com base do Dribbble🏀</h1>
+<h2>Este é um projeto feito com o intuito de por em prática maneiras de programar, com este repositórios implementamos e estudamos:</h2>
+<ul>
+  <li><h3>✔ Aprender a usar GIT</h3></li>
+  <li><h3>✔ Otimizar tecnologias Web</h3></li>
+  <li><h3>✔ Usar Kanban e gestão de projetos</h3></li>
+  <li><h3>✔ Criar e sustentar comunidade</h3></li>
+</ul>
 
-<p>-----Atualizações constantes e aprimoramento de interface , contribua para a nossa causa e ganhe um cupom de 10% de desconto na sua primeira compra .</p>
+<h2>Tela inicial do projeto</h2>
 
-![image](https://user-images.githubusercontent.com/89611907/131231613-84031ddb-e7cd-47f6-90d9-a2e9db434c0f.png)
+<div>
+  
+![image](https://user-images.githubusercontent.com/81270415/131401322-6dc5a761-3cf7-459a-8466-acc4a5dba40f.png)
 
-<p>-----você pode contribuir com nosso projeto. basta apenas fazer algum comentário, deixar uma star, ajudar a comunidade com soluções ou sugestões para o aprimoramento do site.</p>
+</div>
+
+<hr>
+<b>
+  você pode contribuir com nosso projeto. basta apenas fazer algum comentário, deixar uma star, ajudar a comunidade com soluções ou sugestões para o aprimoramento do site.
+</b>
 
 
 <h1>Uma comunidade de bois autônoma, contamos com sua colaboração.🐂👌</h1>
